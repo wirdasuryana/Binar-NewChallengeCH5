@@ -1,4 +1,5 @@
 const express = require('express')
+const res = require('express/lib/response')
 const app = express()
 const posts = require('./db/post.json')
 
@@ -23,6 +24,7 @@ app.get('/login', (req, res) =>{
   console.log('data is taken');
 })
 
+//membuat data user static untuk login di back end
 app.get('/api/v1/posts/:user', (req, res) =>{
   const post = posts.find(i => i.user == req.params.user)
   res.status(200).send(post)
