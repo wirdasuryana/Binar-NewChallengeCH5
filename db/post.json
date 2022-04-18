@@ -1,0 +1,26 @@
+[
+  {
+    "user": "Putri",
+    "division": "Business Product Management",
+    "age": 27,
+    "address": "Jati Asih, Bekasi"
+  },
+  {
+    "user": "Maya",
+    "division": "procurement",
+    "age": 35,
+    "address": "Klender, Jakarta Timur"
+  },
+  {
+    "user": "Kharisma",
+    "division": "business solution",
+    "age": 25,
+    "address": "Banjar, Jawa Tengah"
+  },
+  {
+     "user": "Tetra",
+     "division": "IT Solution",
+     "age": 30,
+     "Address": "BSD, Tangerang" 
+  }
+]
